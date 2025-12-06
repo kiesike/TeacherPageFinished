@@ -89,7 +89,7 @@ $conn->close();
                     <small class="text-muted">Section: <?php echo htmlspecialchars($class['section']); ?> • Code: <?php echo htmlspecialchars($class_code); ?></small>
                 </div>
                 <div>
-                    <a href="classes.php" class="btn btn-outline-secondary">← Back to Classes</a>
+                    <a href="leaderboard.php" class="btn btn-outline-secondary">← Back to Leaderboards</a>
                 </div>
             </div>
 
