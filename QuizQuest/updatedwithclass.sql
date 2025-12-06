@@ -212,14 +212,15 @@ CREATE TABLE `users` (
   `email` varchar(100) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `profile_image` varchar(255) DEFAULT NULL
+  `school_affiliation` varchar(255) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `role`, `full_name`, `email`, `created_at`, `profile_image`) VALUES
-(1, 'killerkidz098', '$2y$10$7ZGTCVfyxKnvqNKIlxQ2EuNuS6QidtPmqXDicKzu3XT021UHdzC2W', 'teacher', 'Shan', 'shanriczendaga@gmail.com', '2025-12-03 07:09:43', 'assets/uploads/693153a7122e5.jpg');
+INSERT INTO `users` (`id`, `username`, `password`, `role`, `full_name`, `email`, `created_at`, `profile_image`, `school_affiliation`) VALUES
+(1, 'killerkidz098', '$2y$10$7ZGTCVfyxKnvqNKIlxQ2EuNuS6QidtPmqXDicKzu3XT021UHdzC2W', 'teacher', 'Shan', 'shanriczendaga@gmail.com', '2025-12-03 07:09:43', 'assets/uploads/693153a7122e5.jpg', `LNU`);
 
 --
 -- Indexes for dumped tables
